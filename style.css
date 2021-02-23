@@ -1,0 +1,112 @@
+body{
+    background: url();
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image:linear-gradient(106deg, #d2355c, #7047d7 );
+    background-image: url(img/topography.sv), linear-gradient(106deg, #d2355c, #7047d7);
+    font-family: system-ui;
+}
+.nav-link{
+    text-align: center;
+    margin-right: 5px;
+    margin-left: 5px;
+    background-color:#FFC600;
+    margin-top: 50px;
+    color: black;
+    font-size: 20px;
+    font-weight: 700;
+}
+.nav-item{
+    width: 20%;
+}
+.nav-item:hover{
+    opacity: 0.9;
+}
+.herro-bg{
+    background: url(img/taco.jpg);
+    background-size: cover;
+    height: 350px;
+    background-position: bottom center;
+}
+.price-1, .price-2{
+    background-color:#FFC600 ;
+    height: 162px;
+    text-align: center;
+    padding-top: 40px;
+}
+.price-1:hover, .price-2:hover{
+    opacity: 0.9;
+}
+.herro-bg h2, .herro-bg h6{
+    color: black;
+    background-color:#FFC600 ;
+    display: inline-block;
+}
+.herro-bg{
+    padding: 150px 0;
+    padding-left: 20px;
+
+}
+.service-bg{
+    background-color: white;
+    margin-top: 18px;
+    text-align: center;
+}
+.service-bg img{
+    width: 50px;
+    margin-top: 5px;
+}
+.service-bg:hover{
+    background-color: rgb(0, 0, 0);
+    transition: 0.3s all;
+    color: white;
+}
+.service-bg h2{
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+.service-bg p{
+    font-weight: 700;
+    font-size: 12px;
+    padding-bottom: 25px;
+}
+.service-area a{
+    color: black;
+    text-decoration: none;
+}
+.middle-area{
+    background-color: white;
+    padding: 60px 50px;
+}
+.middle-area .ftd{
+    padding-top: 70px;
+    padding-left: 66px;
+}
+.middle-area .ftd h2{
+    font-weight: 700;
+}
+.middle-area .ftd p{
+    font-weight: 700;
+}
+.feature-area img{
+    width: 170px;
+    margin-bottom: 18px;
+}
+.feature-area img:hover{
+    background-color:rgba(0, 0, 0, 0.514) ;
+    transition: 0.3s all;
+    opacity: 0.8;
+}
+.gradiant-2{
+    background: linear-gradient(90deg, #FBBF08, #fbbe0809);
+    height: 10px;
+    width: 100%;
+    margin: 12px;
+}
+.gradiant-1{
+    background: linear-gradient(90deg, #fbbe0809,  #FBBF08);
+    height: 10px;
+    width: 100%;
+    margin: 12px;
+}
